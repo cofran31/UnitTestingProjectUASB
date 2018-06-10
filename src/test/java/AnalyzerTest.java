@@ -1,5 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -11,10 +13,16 @@ public class AnalyzerTest {
         assertNotNull("Verifico que el archivo exista", salida);
     }
     @Test
-    public void readFileTestVerifyListScoreText(){
+    public void readFileTestCantidadFilasIngresadasTxt(){
       String archivoTxt = "leer.txt";
       List<Sentence> salida = Analyzer.readFile(archivoTxt);
-        assertEquals("Verificamos que se lea el archivo", "0 This was not as much fun as I thought it would be .", salida);
+      assertEquals("Verificamos la separacion del score y texto comparandolos que sean iguales con la sentencia de prueba", 4, salida.size());
+    }
+    @Test
+    public void readFileTestVerifyListScoreText(){
+        String archivoTxt = "leer.txt";
+        List<Sentence> salida = Analyzer.readFile(archivoTxt);
+        assertEquals("Verificamos la separacion del score y texto comparandolos que sean iguales con la sentencia de prueba", 4, salida.size());
     }
 
 }

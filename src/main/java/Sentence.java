@@ -1,6 +1,6 @@
 public class Sentence implements Comparable<Sentence> {
-    protected int score;
-    protected String text;
+    public int score;
+    public String text;
 
     public Sentence(int score, String text) {
         this.score = score;
