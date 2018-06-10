@@ -10,9 +10,16 @@ import java.util.Set;
 public class AnalyzerTest {
     @Test
     public void readFileTestReadTxt(){
-        String archivoTxt = "leer1.txt";
+        String archivoTxt = "leer.txt";
         List<Sentence> salida = Analyzer.readFile(archivoTxt);
         assertNotNull("Verifico que el archivo exista", salida);
+    }
+    @Test
+    public void readFileTestListaVacia(){
+        String archivoTxt = "leer1.txt";
+        List<Sentence> salida = Analyzer.readFile(archivoTxt);
+        List<Sentence> sentences = new ArrayList<>();
+        assertEquals("Verificamos que el archivo no pueda abrirse y compare su respuesta con una lista vacia", sentences, salida);
     }
     @Test
     public void readFileTestCantidadFilasIngresadasTxt(){
