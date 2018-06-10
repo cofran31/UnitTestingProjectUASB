@@ -47,9 +47,43 @@ public class Analyzer {
      * Implement this method in Part 2
      */
     public static Set<Word> allWords(List<Sentence> sentences) {
-
+        try {
+            // creamos un map
+            Set<Word> words = new HashSet<>();
+            // array para agregar objetos de palabras para poder comprobar la cantidad de palabras repetidas
+            ArrayList<Word> newWords = new ArrayList<>();
+            // recorremos la lista sentences
+            for (Sentence sentence : sentences) {
+                // obtengo la cadena antes del espacio en blanco
+                String[] tokens = sentence.getText().split(" ");
+                for (String token : tokens) {
+                    // Verificamos para evitar los caracteres especiales
+                    if (token.matches("[A-Za-z]+")) {
+                        // convertimos a minusculas si la cadena usaria mayusculas
+                        token = token.toLowerCase();
+                        // se crea un objeto del tipo word
+                        Word word = new Word(token);
+                        // utilizamos el metodo increaseTotal de la clase Word para contar la palabra
+                        word.increaseTotal(sentence.getScore());
+                        // hacemos el seguimiento del numero de apariciones y su puntuacion de todas oraciones en la que aparece la palabra
+                         if (newWords.contains(word)) {
+                            int indexOfWord = newWords.indexOf(word);
+                            newWords.get(indexOfWord).increaseTotal(word.getTotal());
+                        } else {
+                            newWords.add(word);
+                        }
+                    }
+                }
+            }
+            // Se copia todos los objetos de palabras en conjunto
+            for (Word word : newWords) {
+                words.add(word);
+            }
+            return words;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return null;
-
     }
 
 
