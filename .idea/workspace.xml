@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b758276-e935-4b29-a381-ad40cf03cd9b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Analyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Analyzer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/AnalyzerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/AnalyzerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Analyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Analyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnalyzerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,8 +40,8 @@
       <file leaf-file-name="Analyzer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Analyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+            <state relative-caret-position="218">
+              <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,8 +52,8 @@
       <file leaf-file-name="AnalyzerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+            <state relative-caret-position="272">
+              <caret line="83" column="38" lean-forward="true" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -659,9 +663,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AnalyzerTest.allWordsTestAcumulativo" />
+        <item itemvalue="JUnit.AnalyzerTest.allWordsTestSize" />
         <item itemvalue="JUnit.AnalyzerTest.allWordsTest" />
         <item itemvalue="JUnit.AnalyzerTest.allWordsTestTotal" />
-        <item itemvalue="JUnit.AnalyzerTest.allWordsTestSize" />
         <item itemvalue="JUnit.AnalyzerTest.readFileTestVerificaListaTxtScore" />
       </list>
     </recent_temporary>
@@ -680,34 +684,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 12h 12m 43s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 12h 18m 19s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 43m 09s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 44m 11s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 44m 28s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 46m 03s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 46m 36s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 47m 37s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 48m 12s.xml">
       <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AnalyzerTest_allWordsTestAcumulativo - 2018.06.10 at 14h 51m 38s.xml">
+      <configuration name="AnalyzerTest.allWordsTestAcumulativo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTestAcumulativo - 2018.06.10 at 14h 52m 02s.xml">
+      <configuration name="AnalyzerTest.allWordsTestAcumulativo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTestAcumulativo - 2018.06.10 at 14h 52m 21s.xml">
+      <configuration name="AnalyzerTest.allWordsTestAcumulativo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTestAcumulativo - 2018.06.10 at 14h 59m 03s.xml">
+      <configuration name="AnalyzerTest.allWordsTestAcumulativo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTestSize - 2018.06.10 at 15h 06m 55s.xml">
+      <configuration name="AnalyzerTest.allWordsTestSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTestSize - 2018.06.10 at 15h 07m 55s.xml">
+      <configuration name="AnalyzerTest.allWordsTestSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTestAcumulativo - 2018.06.10 at 16h 19m 29s.xml">
+      <configuration name="AnalyzerTest.allWordsTestAcumulativo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTestAcumulativo - 2018.06.10 at 16h 20m 11s.xml">
+      <configuration name="AnalyzerTest.allWordsTestAcumulativo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTestAcumulativo - 2018.06.10 at 16h 22m 02s.xml">
       <configuration name="AnalyzerTest.allWordsTestAcumulativo" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -759,7 +763,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1153,16 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Analyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1500">
@@ -1189,10 +1183,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Analyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="83" column="38" lean-forward="true" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

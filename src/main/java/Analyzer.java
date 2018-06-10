@@ -22,7 +22,7 @@ public class Analyzer {
                 // obtengo el texto restante
                 String texto = " ";
                 // se valida que el escore sea mayor o igual a -2 o menor o igual a 2
-                if (Integer.valueOf(score[0]) >= -2 || Integer.valueOf(score[0]) <= 2) {
+                if (Integer.valueOf(score[0]) >= -2 && Integer.valueOf(score[0]) <= 2) {
                     // recorremos la variable score y lo almacenamos en la variable texto
                     for (int i = 1; i < score.length; i++) {
                         texto = texto + " " + score[i];
@@ -31,8 +31,6 @@ public class Analyzer {
                     Sentence sentence = new Sentence(Integer.valueOf(score[0]), trim(texto));
                     // añadimos a la lista
                     sentences.add(sentence);
-                } else {
-                    return sentences;
                 }
             }
             // devolvemos una lista del tipo sentence

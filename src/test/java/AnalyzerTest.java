@@ -10,6 +10,9 @@ import java.util.Set;
 import java.util.stream.IntStream;
 
 public class AnalyzerTest {
+
+    /* TEST METODO READFILE */
+
     @Test
     public void readFileTestReadTxt(){
         String archivoTxt = "leer.txt";
@@ -42,6 +45,7 @@ public class AnalyzerTest {
         assertEquals("Verificamos campo Texto, introducioendo el texto de la linea del archivo txt", "This was not as much fun as I thought it would be .", salida.get(0).getText());
     }
 
+    /* TEST METODO ALLWORDS */
 
     @Test
     public void allWordsTestSize(){
@@ -57,11 +61,11 @@ public class AnalyzerTest {
         Set<Word> words = Analyzer.allWords(salida);
         String objeto_word = "it";
         Integer numero_apariciones = 0;
-         for (Word word : words){
+        for (Word word : words){
              if (objeto_word.equals(word.getText()))
                  numero_apariciones = word.getCount();
         }
-        assertEquals("Obtenemos el tamaño de palabras encontradas", 2,  Integer.parseInt(String.valueOf(numero_apariciones)));
+        assertEquals("Se calcula el numero de apariciones de la palabra objeto_word en todas las oraciones", 2,  Integer.parseInt(String.valueOf(numero_apariciones)));
     }
     @Test
     public void allWordsTestAcumulativo(){
@@ -71,13 +75,11 @@ public class AnalyzerTest {
         String objeto_word = "it";
         Integer acumulativo = 0;
         for (Word word : words){
-            //System.out.println(word.text + " " + word.getTotal() + " " + word.getCount());
-            //assertTrue("", true);
             if (objeto_word.equals(word.getText()))
                 acumulativo = word.getTotal();
         }
-        assertEquals("Obtenemos el tamaño de palabras encontradas", 1,  Integer.parseInt(String.valueOf(acumulativo)));
+        assertEquals("Se calcula la puntuacion acumulativa total de todas las oraciones en las que aparece la palabra objeto_word", 1,  Integer.parseInt(String.valueOf(acumulativo)));
     }
 
-
+    /* TEST METODO CALCULATESCORES  */
 }
