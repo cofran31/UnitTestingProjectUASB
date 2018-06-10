@@ -89,8 +89,20 @@ public class Analyzer {
      * Implement this method in Part 3
      */
     public static Map<String, Double> calculateScores(Set<Word> words) {
-
-        return null;
-
+        // Creamos un map
+        Map<String, Double> wordScores = new HashMap<>();
+        try {
+            // Recorremos las sentencias words
+            for (Word word : words) {
+                // Añadimos un elemento clave valor al mapa
+                wordScores.put(word.getText(), word.calculateScore());
+            }
+            // Devolvemos un map con clave (que tomara el promedio) y el valor (la palabra).
+            return wordScores;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        // Devolvemos un map vacio.
+        return wordScores;
     }
 }
