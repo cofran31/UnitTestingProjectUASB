@@ -48,20 +48,22 @@ public class AnalyzerTest {
         String archivoTxt = "leer.txt";
         List<Sentence> salida = Analyzer.readFile(archivoTxt);
         Set<Word> words = Analyzer.allWords(salida);
-        assertEquals("Obtenemos el tamaño de palabras encontradas", 36, words.size());
+        assertEquals("Obtenemos el numero total de palabras encontradas", 36, words.size());
     }
     @Test
-    public void allWordsTest(){
+    public void allWordsTestNumeroApariciones(){
         String archivoTxt = "leer.txt";
         List<Sentence> salida = Analyzer.readFile(archivoTxt);
         Set<Word> words = Analyzer.allWords(salida);
-
+        String objeto_word = "it";
+        Integer numero_apariciones = 0;
          for (Word word : words){
          //System.out.println(word.text + " " + word.getTotal() + " " + word.getCount());
          //assertTrue("", true);
-            assertEquals("Obtenemos el tamaño de palabras encontradas", 3, word..text);
+             if (objeto_word.equals(word.getText()))
+                 numero_apariciones = word.getCount();
         }
-
+        assertEquals("Obtenemos el tamaño de palabras encontradas", 2,  Integer.parseInt(String.valueOf(numero_apariciones)));
     }
 
 

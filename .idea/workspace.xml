@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b758276-e935-4b29-a381-ad40cf03cd9b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnalyzerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -48,8 +49,8 @@
       <file leaf-file-name="AnalyzerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="61" column="80" selection-start-line="61" selection-start-column="80" selection-end-line="61" selection-end-column="80" />
+            <state relative-caret-position="289">
+              <caret line="65" column="69" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -680,24 +681,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnalyzerTest_allWordsTestTotal - 2018.06.10 at 11h 00m 46s.xml">
-      <configuration name="AnalyzerTest.allWordsTestTotal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTestTotal - 2018.06.10 at 11h 03m 11s.xml">
-      <configuration name="AnalyzerTest.allWordsTestTotal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 11h 31m 15s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 12h 07m 52s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 12h 08m 24s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 12h 08m 59s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 12h 10m 29s.xml">
       <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
     </history-entry>
@@ -708,6 +691,24 @@
       <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 12h 18m 19s.xml">
+      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 43m 09s.xml">
+      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 44m 11s.xml">
+      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 44m 28s.xml">
+      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 46m 03s.xml">
+      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 46m 36s.xml">
+      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 47m 37s.xml">
       <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1191,8 +1192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="61" column="80" selection-start-line="61" selection-start-column="80" selection-end-line="61" selection-end-column="80" />
+        <state relative-caret-position="289">
+          <caret line="65" column="69" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
