@@ -48,8 +48,8 @@
       <file leaf-file-name="AnalyzerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="47" column="52" lean-forward="true" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+            <state relative-caret-position="139">
+              <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -513,7 +513,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnalyzerTest.allWordsTestSize">
+  <component name="RunManager" selected="JUnit.AnalyzerTest.allWordsTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -649,8 +649,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AnalyzerTest.allWordsTestSize" />
         <item itemvalue="JUnit.AnalyzerTest.allWordsTest" />
+        <item itemvalue="JUnit.AnalyzerTest.allWordsTestSize" />
         <item itemvalue="JUnit.AnalyzerTest.readFileTestVerificaListaTxtScore" />
         <item itemvalue="JUnit.AnalyzerTest.readFileTestVerificaListaTxtText" />
         <item itemvalue="JUnit.AnalyzerTest.readFileTestListaVacia" />
@@ -671,12 +671,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnalyzerTest - 2018.06.10 at 08h 42m 40s.xml">
-      <configuration name="AnalyzerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_readFileTestReadTxt - 2018.06.10 at 08h 43m 02s.xml">
-      <configuration name="AnalyzerTest.readFileTestReadTxt" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnalyzerTest_readFileTestReadTxt - 2018.06.10 at 09h 01m 44s.xml">
       <configuration name="AnalyzerTest.readFileTestReadTxt" configurationId="JUnit" />
     </history-entry>
@@ -699,6 +693,12 @@
       <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 10h 03m 47s.xml">
+      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTestSize - 2018.06.10 at 10h 41m 41s.xml">
+      <configuration name="AnalyzerTest.allWordsTestSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 10h 45m 00s.xml">
       <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1182,8 +1182,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="47" column="52" lean-forward="true" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+        <state relative-caret-position="139">
+          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

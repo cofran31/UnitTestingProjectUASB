@@ -48,5 +48,11 @@ public class AnalyzerTest {
         Set<Word> words = Analyzer.allWords(salida);
         assertEquals("Obtenemos el tamaño de palabras encontradas", 36, words.size());
     }
-
+    @Test
+    public void allWordsTest(){
+        String archivoTxt = "leer.txt";
+        List<Sentence> salida = Analyzer.readFile(archivoTxt);
+        Set<Word> words = Analyzer.allWords(salida);
+        assertNotNull("Verifico que exista el objeto words", words);
+    }
 }
