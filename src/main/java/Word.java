@@ -36,7 +36,7 @@ public class Word implements Comparable<Word> {
     @Override
     public boolean equals(Object other) {
         if (other instanceof Word == false) return false;
-        Word otherWord = (Word)other;
+        Word otherWord = (Word) other;
         return text.equals(otherWord.text);
     }
 
