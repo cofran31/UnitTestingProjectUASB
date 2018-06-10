@@ -58,14 +58,26 @@ public class AnalyzerTest {
         String objeto_word = "it";
         Integer numero_apariciones = 0;
          for (Word word : words){
-         //System.out.println(word.text + " " + word.getTotal() + " " + word.getCount());
-         //assertTrue("", true);
              if (objeto_word.equals(word.getText()))
                  numero_apariciones = word.getCount();
         }
         assertEquals("Obtenemos el tamaño de palabras encontradas", 2,  Integer.parseInt(String.valueOf(numero_apariciones)));
     }
-
+    @Test
+    public void allWordsTestAcumulativo(){
+        String archivoTxt = "leer.txt";
+        List<Sentence> salida = Analyzer.readFile(archivoTxt);
+        Set<Word> words = Analyzer.allWords(salida);
+        String objeto_word = "it";
+        Integer acumulativo = 0;
+        for (Word word : words){
+            //System.out.println(word.text + " " + word.getTotal() + " " + word.getCount());
+            //assertTrue("", true);
+            if (objeto_word.equals(word.getText()))
+                acumulativo = word.getTotal();
+        }
+        assertEquals("Obtenemos el tamaño de palabras encontradas", 1,  Integer.parseInt(String.valueOf(acumulativo)));
+    }
 
 
 }

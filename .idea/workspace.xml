@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b758276-e935-4b29-a381-ad40cf03cd9b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnalyzerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,8 +48,8 @@
       <file leaf-file-name="AnalyzerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="65" column="69" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
+            <state relative-caret-position="150">
+              <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -523,7 +522,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnalyzerTest.allWordsTest">
+  <component name="RunManager" selected="JUnit.AnalyzerTest.allWordsTestAcumulativo">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -534,6 +533,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AnalyzerTest" />
       <option name="METHOD_NAME" value="allWordsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AnalyzerTest.allWordsTestAcumulativo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2uasb_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnalyzerTest" />
+      <option name="METHOD_NAME" value="allWordsTestAcumulativo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -595,23 +611,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnalyzerTest.readFileTestVerificaListaTxtText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2uasb_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnalyzerTest" />
-      <option name="METHOD_NAME" value="readFileTestVerificaListaTxtText" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -652,18 +651,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AnalyzerTest.readFileTestVerificaListaTxtScore" />
-      <item itemvalue="JUnit.AnalyzerTest.readFileTestVerificaListaTxtText" />
       <item itemvalue="JUnit.AnalyzerTest.allWordsTest" />
       <item itemvalue="JUnit.AnalyzerTest.allWordsTestSize" />
       <item itemvalue="JUnit.AnalyzerTest.allWordsTestTotal" />
+      <item itemvalue="JUnit.AnalyzerTest.allWordsTestAcumulativo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnalyzerTest.allWordsTestAcumulativo" />
         <item itemvalue="JUnit.AnalyzerTest.allWordsTest" />
         <item itemvalue="JUnit.AnalyzerTest.allWordsTestTotal" />
         <item itemvalue="JUnit.AnalyzerTest.allWordsTestSize" />
         <item itemvalue="JUnit.AnalyzerTest.readFileTestVerificaListaTxtScore" />
-        <item itemvalue="JUnit.AnalyzerTest.readFileTestVerificaListaTxtText" />
       </list>
     </recent_temporary>
   </component>
@@ -681,12 +680,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 12h 10m 29s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 12h 10m 41s.xml">
-      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 12h 12m 43s.xml">
       <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
     </history-entry>
@@ -710,6 +703,12 @@
     </history-entry>
     <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 47m 37s.xml">
       <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTest - 2018.06.10 at 14h 48m 12s.xml">
+      <configuration name="AnalyzerTest.allWordsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTestAcumulativo - 2018.06.10 at 14h 51m 38s.xml">
+      <configuration name="AnalyzerTest.allWordsTestAcumulativo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -760,7 +759,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1192,8 +1191,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="65" column="69" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
+        <state relative-caret-position="150">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
