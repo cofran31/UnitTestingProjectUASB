@@ -4,8 +4,10 @@ import static jdk.nashorn.internal.objects.NativeString.trim;
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.IntStream;
 
 public class AnalyzerTest {
     @Test
@@ -53,6 +55,15 @@ public class AnalyzerTest {
         String archivoTxt = "leer.txt";
         List<Sentence> salida = Analyzer.readFile(archivoTxt);
         Set<Word> words = Analyzer.allWords(salida);
-        assertNotNull("Verifico que exista el objeto words", words);
+
+         for (Word word : words){
+         //System.out.println(word.text + " " + word.getTotal() + " " + word.getCount());
+         //assertTrue("", true);
+            assertEquals("Obtenemos el tamaño de palabras encontradas", 3, word..text);
+        }
+
     }
+
+
+
 }
