@@ -40,4 +40,13 @@ public class AnalyzerTest {
         assertEquals("Verificamos campo Texto, introducioendo el texto de la linea del archivo txt", "This was not as much fun as I thought it would be .", salida.get(0).getText());
     }
 
+
+    @Test
+    public void allWordsTestSize(){
+        String archivoTxt = "leer.txt";
+        List<Sentence> salida = Analyzer.readFile(archivoTxt);
+        Set<Word> words = Analyzer.allWords(salida);
+        assertEquals("Obtenemos el tamaño de palabras encontradas", 36, words.size());
+    }
+
 }
