@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PersistTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-06-02T23:29:30" hostname="DESKTOP-GHN2S3D" time="0.009">
+  <properties/>
+  <testcase name="persistancetestFormNumber10" classname="PersistTest" time="0.002"/>
+  <testcase name="persistancetestFormNumber1000" classname="PersistTest" time="0.0"/>
+  <testcase name="persistancetestFormNumber1250" classname="PersistTest" time="0.0"/>
+  <testcase name="persistancetestFormNumber3125" classname="PersistTest" time="0.0"/>
+  <testcase name="persistancetestFormNumber3425" classname="PersistTest" time="0.0"/>
+  <testcase name="persistancetestFormNumber4332" classname="PersistTest" time="0.0"/>
+  <testcase name="persistancetestFormNumber0" classname="PersistTest" time="0.001"/>
+  <testcase name="persistancetestFormNumber425" classname="PersistTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
