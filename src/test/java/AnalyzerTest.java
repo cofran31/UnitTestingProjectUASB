@@ -3,10 +3,7 @@ import org.junit.Test;
 import static jdk.nashorn.internal.objects.NativeString.trim;
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.IntStream;
 
 public class AnalyzerTest {
@@ -28,12 +25,12 @@ public class AnalyzerTest {
         List<Sentence> sentences = new ArrayList<>();
         assertEquals("Verificamos que el archivo no pueda abrirse y compare su respuesta con una lista vacia", sentences, salida);
     }
-    // Test que verifica la cantidad de filas que tiene el archivo de texto Ej: leer.txt con 5 filas (cuenta del 0 al 4)
+    // Test que verifica la cantidad de filas que tiene el archivo de texto Ej: leer.txt con 5 filas
     @Test
     public void readFileTestCantidadFilasIngresadasTxt(){
       String archivoTxt = "leer.txt";
       List<Sentence> salida = Analyzer.readFile(archivoTxt);
-      assertEquals("Verificamos el numero de filas que contiene el archivo de texto", 4, salida.size());
+      assertEquals("Verificamos el numero de filas que contiene el archivo de texto", 5, salida.size());
     }
     // Test  que verifica el campo Score Ej: "1 a bilingual charmer , just like the woman who inspired it" salida = 1
     @Test
@@ -48,11 +45,19 @@ public class AnalyzerTest {
         String archivoTxt = "leer.txt";
         List<Sentence> salida = Analyzer.readFile(archivoTxt);
         String text = "a bilingual charmer , just like the woman who inspired it";
-        assertEquals("Verificamos campo Texto, introducioendo el texto de la linea del archivo txt", "This was not as much fun as I thought it would be .", salida.get(0).getText());
+        assertEquals("Verificamos campo Texto, introducioendo el texto de la linea del archivo txt", text, salida.get(0).getText());
     }
 
     /* TEST METODO ALLWORDS */
 
+    // Test que verifica que en caso de no existir el archivo envia una lista vacia. Ej: leer1.txt no existe en el directorio
+    @Test
+    public void allWordsTestMapaVacio(){
+        List<Sentence> salida = Analyzer.readFile("");
+        Set<Word> words = Analyzer.allWords(salida);
+        Set<Word> mapVacio = new HashSet<>();
+        assertEquals("Verificamos que el archivo no pueda abrirse y compare su respuesta con una lista vacia", mapVacio, words);
+    }
     // Test que verifica el numero total de palabras encontradas Ej: leer.txt contiene 36 palabras validas
     @Test
     public void allWordsTestSize(){
@@ -91,4 +96,29 @@ public class AnalyzerTest {
     }
 
     /* TEST METODO CALCULATESCORES  */
+
+    /* Test que verifica el puntaje de sentimiento promedio para una palabra
+    Ej. del arvhivo leer.txt se tienen las siguientes lineas de ejemplo:
+     1 a bilingual charmer , just like the woman who inspired it
+     0 Like a less dizzily gorgeous companion to Mr. Wong 's In
+     -1 As inept as big-screen remakes of The Avengers and The Wild Wild West .
+     0 It 's everything you 'd expect -- but nothing more .
+     2 Best indie of the year , so far .
+     Observamos que para la palabra "the" => [(fila 0) 1 + (fila 2) -1 + (fila 2) -1 + (fila 4) 2 ] / 4 = 1/4 = 0.25
+    */
+    @Test
+    public void  calculateScoresTestAcumulativo(){
+        String archivoTxt = "leer.txt";
+        List<Sentence> salida = Analyzer.readFile(archivoTxt);
+        Set<Word> words = Analyzer.allWords(salida);
+        String objeto_word = "the";
+        Double valor = 0.0;
+        Double comparable = 0.25;
+        Map<String, Double> wordScores = Analyzer.calculateScores(words);
+        for (Map.Entry<String, Double> entry : wordScores.entrySet()){
+            if (objeto_word.equals(entry.getKey()))
+                valor = entry.getValue();
+        }
+        assertEquals("Se calcula el sentimiento promedio de una palabra", comparable,  valor);
+    }
 }
