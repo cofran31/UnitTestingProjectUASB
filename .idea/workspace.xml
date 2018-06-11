@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b758276-e935-4b29-a381-ad40cf03cd9b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Analyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Analyzer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/AnalyzerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/AnalyzerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnalyzerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,8 +36,8 @@
       <file leaf-file-name="Analyzer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Analyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="42" />
+            <state relative-caret-position="85">
+              <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,8 +48,8 @@
       <file leaf-file-name="AnalyzerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+            <state relative-caret-position="136">
+              <caret line="105" column="73" lean-forward="true" selection-start-line="105" selection-start-column="73" selection-end-line="105" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -516,7 +513,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnalyzerTest.allWordsTestMapaVacio">
+  <component name="RunManager" selected="JUnit.AnalyzerTest.calculateScoresTestMapaVacio">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -528,23 +525,6 @@
       <option name="MAIN_CLASS_NAME" value="AnalyzerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AnalyzerTest.allWordsTestAcumulativo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2uasb_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnalyzerTest" />
-      <option name="METHOD_NAME" value="allWordsTestAcumulativo" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -578,6 +558,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AnalyzerTest" />
       <option name="METHOD_NAME" value="calculateScoresTestAcumulativo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AnalyzerTest.calculateScoresTestMapaVacio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2uasb_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnalyzerTest" />
+      <option name="METHOD_NAME" value="calculateScoresTestMapaVacio" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -644,19 +641,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AnalyzerTest.allWordsTestAcumulativo" />
       <item itemvalue="JUnit.AnalyzerTest.calculateScoresTestAcumulativo" />
       <item itemvalue="JUnit.AnalyzerTest" />
       <item itemvalue="JUnit.AnalyzerTest.readFileTestCantidadFilasIngresadasTxt" />
       <item itemvalue="JUnit.AnalyzerTest.allWordsTestMapaVacio" />
+      <item itemvalue="JUnit.AnalyzerTest.calculateScoresTestMapaVacio" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnalyzerTest.calculateScoresTestMapaVacio" />
         <item itemvalue="JUnit.AnalyzerTest.allWordsTestMapaVacio" />
         <item itemvalue="JUnit.AnalyzerTest.readFileTestCantidadFilasIngresadasTxt" />
         <item itemvalue="JUnit.AnalyzerTest" />
         <item itemvalue="JUnit.AnalyzerTest.calculateScoresTestAcumulativo" />
-        <item itemvalue="JUnit.AnalyzerTest.allWordsTestAcumulativo" />
       </list>
     </recent_temporary>
   </component>
@@ -674,12 +671,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnalyzerTest_calculateScoresTestAcumulativo - 2018.06.10 at 19h 35m 51s.xml">
-      <configuration name="AnalyzerTest.calculateScoresTestAcumulativo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnalyzerTest_calculateScoresTestAcumulativo - 2018.06.10 at 19h 36m 53s.xml">
-      <configuration name="AnalyzerTest.calculateScoresTestAcumulativo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnalyzerTest_calculateScoresTestAcumulativo - 2018.06.10 at 19h 37m 38s.xml">
       <configuration name="AnalyzerTest.calculateScoresTestAcumulativo" configurationId="JUnit" />
     </history-entry>
@@ -703,6 +694,12 @@
     </history-entry>
     <history-entry file="AnalyzerTest_allWordsTestMapaVacio - 2018.06.10 at 20h 34m 58s.xml">
       <configuration name="AnalyzerTest.allWordsTestMapaVacio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_allWordsTestMapaVacio - 2018.06.10 at 20h 35m 41s.xml">
+      <configuration name="AnalyzerTest.allWordsTestMapaVacio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzerTest_calculateScoresTestMapaVacio - 2018.06.10 at 20h 43m 56s.xml">
+      <configuration name="AnalyzerTest.calculateScoresTestMapaVacio" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -753,7 +750,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1175,8 +1172,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Analyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="42" />
+        <state relative-caret-position="85">
+          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1185,8 +1182,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+        <state relative-caret-position="136">
+          <caret line="105" column="73" lean-forward="true" selection-start-line="105" selection-start-column="73" selection-end-line="105" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

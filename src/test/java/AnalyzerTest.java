@@ -50,7 +50,7 @@ public class AnalyzerTest {
 
     /* TEST METODO ALLWORDS */
 
-    // Test que verifica que en caso de no existir el archivo envia una lista vacia. Ej: leer1.txt no existe en el directorio
+    // Test que verifica comparar el metodo allWords cuando no tenga contenido devuelva un mapa vacio.
     @Test
     public void allWordsTestMapaVacio(){
         List<Sentence> salida = Analyzer.readFile("");
@@ -97,8 +97,18 @@ public class AnalyzerTest {
 
     /* TEST METODO CALCULATESCORES  */
 
+
+    // Test que verifica comparar el metodo calculateScores cuando no tenga contenido devuelva un mapa vacio.
+    @Test
+    public void calculateScoresTestMapaVacio(){
+        List<Sentence> salida = Analyzer.readFile("");
+        Set<Word> words = Analyzer.allWords(salida);
+        Map<String, Double> wordScores = Analyzer.calculateScores(words);
+        Map<String, Double> mapVacio = new HashMap<>();
+        assertEquals("Verificamos que el archivo no pueda abrirse y compare su respuesta con una lista vacia", mapVacio, wordScores);
+    }
     /* Test que verifica el puntaje de sentimiento promedio para una palabra
-    Ej. del arvhivo leer.txt se tienen las siguientes lineas de ejemplo:
+    Ej. del archivo leer.txt se tienen las siguientes lineas de ejemplo:
      1 a bilingual charmer , just like the woman who inspired it
      0 Like a less dizzily gorgeous companion to Mr. Wong 's In
      -1 As inept as big-screen remakes of The Avengers and The Wild Wild West .
