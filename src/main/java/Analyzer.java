@@ -107,4 +107,17 @@ public class Analyzer {
         // Devolvemos un map vacio.
         return wordScores;
     }
+    // Una vez testeados los metodos se realizara la implementacion en consola:
+    public static void main(String[] args) {
+        String filename = "Leer.txt";
+        List<Sentence> sentences = Analyzer.readFile(filename);
+        Set<Word> words = Analyzer.allWords(sentences);
+        Map<String, Double> wordScores = Analyzer.calculateScores(words);
+        System.out.println("Cantidad de palabras encontradas: " + words.size());
+        System.out.println("Score de los sentimientos son: " + wordScores);
+        for (Word word : words){
+            System.out.println(" Objeto Word: " + word.text + "       Numero de Apariciones: " + word.getCount() + "       Acumulativo:" + word.getTotal());
+
+        }
+    }
 }
