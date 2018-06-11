@@ -61,6 +61,10 @@ Resultados:
 
 ![Sort dependencies](https://github.com/cofran31/UnitTestingProjectUASB/blob/master/images/result.png)
 
+## Travis CI
+
+![Sort dependencies](https://github.com/cofran31/UnitTestingProjectUASB/blob/master/images/travis.png)
+
 ## License
 
 This project is licensed under the MIT license.
