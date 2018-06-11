@@ -116,7 +116,7 @@ public class Analyzer {
         System.out.println("Cantidad de palabras encontradas: " + words.size());
         System.out.println("Score de los sentimientos son: " + wordScores);
         for (Word word : words){
-            System.out.println(" Objeto Word: " + word.text + "       Numero de Apariciones: " + word.getCount() + "       Acumulativo:" + word.getTotal());
+            System.out.println(" Objeto Word:" + word.text + "Numero de Apariciones:" + word.getCount() + "Acumulativo:" + word.getTotal());
 
         }
     }
